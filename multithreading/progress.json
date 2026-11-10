@@ -1,0 +1,132 @@
+{
+  "currentLevel": 1,
+  "currentChallengeId": "1.1",
+  "completedChallenges": [],
+  "weakAreasToReinforce": [
+    "Intrinsic lock mutual exclusion vs wait/notify condition waiting",
+    "Memory visibility with volatile",
+    "CAS retry side-effects in AtomicLong.updateAndGet"
+  ],
+  "curriculum": [
+    {
+      "id": "1.1",
+      "level": 1,
+      "title": "Thread-Safe Counter & Visibility",
+      "status": "IN_PROGRESS",
+      "score": 5.0,
+      "notes": "Attempt 1 reviewed: Good use of accumulateAndGet for maxLatency, but confused intrinsic lock mutual exclusion with wait/notifyAll, had side-effect bug in updateAndGet lambda for tryReserveQuota, and needed explanation of volatile for shutdown visibility."
+    },
+    {
+      "id": "1.2",
+      "level": 1,
+      "title": "Ping-Pong / Alternating Printer",
+      "status": "LOCKED",
+      "score": null,
+      "notes": ""
+    },
+    {
+      "id": "1.3",
+      "level": 1,
+      "title": "Zero-Even-Odd / FizzBuzz Multithreaded",
+      "status": "LOCKED",
+      "score": null,
+      "notes": ""
+    },
+    {
+      "id": "1.4",
+      "level": 1,
+      "title": "Bounded Blocking Queue from Scratch",
+      "status": "LOCKED",
+      "score": null,
+      "notes": ""
+    },
+    {
+      "id": "2.1",
+      "level": 2,
+      "title": "Bounded Buffer with ReentrantLock and Condition",
+      "status": "LOCKED",
+      "score": null,
+      "notes": ""
+    },
+    {
+      "id": "2.2",
+      "level": 2,
+      "title": "Custom Read-Write Lock",
+      "status": "LOCKED",
+      "score": null,
+      "notes": ""
+    },
+    {
+      "id": "2.3",
+      "level": 2,
+      "title": "Unisex Bathroom / H2O Molecule Builder",
+      "status": "LOCKED",
+      "score": null,
+      "notes": ""
+    },
+    {
+      "id": "2.4",
+      "level": 2,
+      "title": "Dining Philosophers",
+      "status": "LOCKED",
+      "score": null,
+      "notes": ""
+    },
+    {
+      "id": "3.1",
+      "level": 3,
+      "title": "Custom Fixed Thread Pool from Scratch",
+      "status": "LOCKED",
+      "score": null,
+      "notes": ""
+    },
+    {
+      "id": "3.2",
+      "level": 3,
+      "title": "Deferred / Delayed Task Scheduler",
+      "status": "LOCKED",
+      "score": null,
+      "notes": ""
+    },
+    {
+      "id": "3.3",
+      "level": 3,
+      "title": "Rate Limiter",
+      "status": "LOCKED",
+      "score": null,
+      "notes": ""
+    },
+    {
+      "id": "4.1",
+      "level": 4,
+      "title": "Lock-Free Stack / Counter with AtomicReference and CAS",
+      "status": "LOCKED",
+      "score": null,
+      "notes": ""
+    },
+    {
+      "id": "4.2",
+      "level": 4,
+      "title": "Thread-Safe LRU Cache",
+      "status": "LOCKED",
+      "score": null,
+      "notes": ""
+    },
+    {
+      "id": "4.3",
+      "level": 4,
+      "title": "Request Coalescing / SingleFlight Memoizer",
+      "status": "LOCKED",
+      "score": null,
+      "notes": ""
+    },
+    {
+      "id": "4.4",
+      "level": 4,
+      "title": "Fault-Tolerant Scatter-Gather Aggregator",
+      "status": "LOCKED",
+      "score": null,
+      "notes": ""
+    }
+  ]
+}

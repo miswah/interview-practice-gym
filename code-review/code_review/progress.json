@@ -1,0 +1,117 @@
+{
+  "currentLevel": 1,
+  "currentChallengeId": "1.2",
+  "completedChallenges": [
+    "1.1"
+  ],
+  "missedDefectCategories": [
+    "partial-state-mutation",
+    "silent-exception-swallowing"
+  ],
+  "curriculum": [
+    {
+      "id": "1.1",
+      "title": "API Contracts, Null Safety & Silent Exception Swallowing",
+      "status": "COMPLETED",
+      "detectionRate": "75%",
+      "communicationScore": 6,
+      "notes": "Caught Optional.get(), null dereference on Discount, return null on Optional method, and broad catch(Exception). Missed premature DB state mutation before payment charge and swallowed stack trace / false-success return in catch block."
+    },
+    {
+      "id": "1.2",
+      "title": "Collections, equals/hashCode Contracts & Mutable Keys",
+      "status": "IN_PROGRESS",
+      "detectionRate": null,
+      "communicationScore": null,
+      "notes": ""
+    },
+    {
+      "id": "1.3",
+      "title": "Resource Leaks & I/O Lifecycle",
+      "status": "PENDING",
+      "detectionRate": null,
+      "communicationScore": null,
+      "notes": ""
+    },
+    {
+      "id": "1.4",
+      "title": "Precision, Boundary Bugs & Timezone/Financial Arithmetic",
+      "status": "PENDING",
+      "detectionRate": null,
+      "communicationScore": null,
+      "notes": ""
+    },
+    {
+      "id": "2.1",
+      "title": "Hidden O(N^2) Loops, N+1 Queries & Unbounded Batching",
+      "status": "PENDING",
+      "detectionRate": null,
+      "communicationScore": null,
+      "notes": ""
+    },
+    {
+      "id": "2.2",
+      "title": "Memory Leaks, Unbounded Caches & Listener Registration",
+      "status": "PENDING",
+      "detectionRate": null,
+      "communicationScore": null,
+      "notes": ""
+    },
+    {
+      "id": "2.3",
+      "title": "Stream API Antipatterns & Stateful Lambdas",
+      "status": "PENDING",
+      "detectionRate": null,
+      "communicationScore": null,
+      "notes": ""
+    },
+    {
+      "id": "3.1",
+      "title": "Compound Actions & Thread-Unsafe Collections",
+      "status": "PENDING",
+      "detectionRate": null,
+      "communicationScore": null,
+      "notes": ""
+    },
+    {
+      "id": "3.2",
+      "title": "Lock Ordering Deadlocks, Lock Contention & Holding Locks During I/O",
+      "status": "PENDING",
+      "detectionRate": null,
+      "communicationScore": null,
+      "notes": ""
+    },
+    {
+      "id": "3.3",
+      "title": "Async Pipelines, CompletableFuture Swallowed Exceptions & Thread Pool Starvation",
+      "status": "PENDING",
+      "detectionRate": null,
+      "communicationScore": null,
+      "notes": ""
+    },
+    {
+      "id": "4.1",
+      "title": "Injection Vectors, Path Traversal & Sensitive Data Leaks",
+      "status": "PENDING",
+      "detectionRate": null,
+      "communicationScore": null,
+      "notes": ""
+    },
+    {
+      "id": "4.2",
+      "title": "Idempotency, Retry Storms & Non-Atomic External Calls",
+      "status": "PENDING",
+      "detectionRate": null,
+      "communicationScore": null,
+      "notes": ""
+    },
+    {
+      "id": "4.3",
+      "title": "Cache Invalidation Races, Stale Reads & Thundering Herd",
+      "status": "PENDING",
+      "detectionRate": null,
+      "communicationScore": null,
+      "notes": ""
+    }
+  ]
+}
